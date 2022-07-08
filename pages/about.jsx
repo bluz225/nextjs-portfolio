@@ -8,7 +8,7 @@ export default function About() {
         <>
             <div>
                 <h1>About!</h1>
-                <p className={[styles.bluefont, styles.fontSize].join(" ")}>I dont like candy</p>
+                <p className={[styles.bluefont, styles.fontSize].join(" ")}>{`I don't like candy`}</p>
                 <div>
                     <style jsx>{`
                         .orangeText{
